@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stucwerk",
+      "handler": "stucwerk.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stucwerk",
+      "handler": "stucwerk.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stucwerk",
+      "handler": "stucwerk.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

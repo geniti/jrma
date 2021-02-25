@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/latex-spuiten",
+      "handler": "latex-spuiten.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/latex-spuiten",
+      "handler": "latex-spuiten.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/latex-spuiten",
+      "handler": "latex-spuiten.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

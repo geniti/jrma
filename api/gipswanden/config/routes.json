@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gipswanden",
+      "handler": "gipswanden.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gipswanden",
+      "handler": "gipswanden.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gipswanden",
+      "handler": "gipswanden.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

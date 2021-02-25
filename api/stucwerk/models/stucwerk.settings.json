@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "stucwerks",
+  "info": {
+    "name": "Stucwerk",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "schuurwerk": {
+      "type": "string"
+    },
+    "swcontent": {
+      "type": "richtext"
+    },
+    "swimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "raapwerk": {
+      "type": "string"
+    },
+    "rwcontent": {
+      "type": "richtext"
+    },
+    "rwimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
